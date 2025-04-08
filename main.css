@@ -1,3 +1,15 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
