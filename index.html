@@ -7,32 +7,230 @@
     <meta
       name="discription"
       content="Static profile website."/>
-    <link rel="icon" href="./img/jibranshah.png" />
+    <link rel="icon" href="./img/JS.png" />
     <link rel="stylesheet" href="./main.css" />
+
   </head>
   <body>
     <!-- Hero section -->
     <section class="hero">
-      <header class="hero-content">
+      <div class="hero-content">
         <h1>Hi, I'm <span class="highlight">Jibran shah</span></h1>
         <p class="subtitle">Software Developer | Native Android Developer | MERN Stack Developer | Spring Boot Developer</p>
-        <div>
+        <div class="cta-buttons">
           <a class="btn primary">View Projects</a>
           <a class="btn secondary">Contact Me</a>
         </div>
-        <div class="hero-image">
-          <img alt="Jibran Shah">
-        </div>
-     </header>
+      </div>
+      <div class="hero-image">
+        <img src="./img/jibranshah.jpeg" alt="Jibran shah">
+      </div>
     </section>
     <!-- About Me -->
+    <section id="about" class="about-me">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Hello! I'm <strong>Jibran shah</strong>, a passionate developer who loves building <em>cool, efficient, and useful stuff</em>. I specialize in C++, web development, and game engines. I enjoy solving complex problems and turning ideas into reality through code.</p>
+            <p>I'm currently exploring low-level systems programming and OpenGL-based rendering. When I’m not coding, I enjoy reading sci-fi books, gaming, and experimenting with music production.</p>
+            <p><strong>Fun fact:</strong> I once made a snake game using only assembly language… just for fun 😄</p>
+          </div>
+          <div class="about-image">
+            <img src="./img/jibranshah2.jpeg" alt="A picture of Jibran shah">
+          </div>
+        </div>
+      </div>
+    </section>    
     <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="img/project1.jpeg" alt="Screenshot of Project 1">
+            <div class="project-info">
+              <h3>Snake Game (C++)</h3>
+              <p>Classic Snake game made using C++ and the Win32 API. It features level design, collision detection, and basic score tracking.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/snake-game" target="_blank">GitHub</a>
+                <a href="https://yourusername.github.io/snake-game" target="_blank">Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more .project-card blocks for other projects -->
+        </div>
+      </div>
+    </section>    
     <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="skills-intro">Here are some technologies and tools I work with regularly:</p>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <ul>
+              <li>C++</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Spring Boot</li>
+              <li>OpenGL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Linux</li>
+              <li>Docker</li>
+              <li>VSCode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>    
     <!-- Resume -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <h2>Resume</h2>
+        <p class="resume-intro">
+          Here's a quick summary of my education, work experience, and skills. You can also
+          <a href="resume.pdf" target="_blank" class="resume-download">download my full resume</a> as a PDF.
+        </p>
+    
+        <div class="resume-section">
+          <h3>🎓 Education</h3>
+          <div class="resume-item">
+            <h4>Bachelor of Computer Science</h4>
+            <p><strong>XYZ University</strong> – 2021–2025</p>
+            <p>Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Graphics, IoT</p>
+          </div>
+        </div>
+    
+        <div class="resume-section">
+          <h3>💼 Work Experience</h3>
+          <div class="resume-item">
+            <h4>Software Engineering Intern</h4>
+            <p><strong>ABC Tech</strong> – Summer 2024</p>
+            <ul>
+              <li>Worked on a C++ simulation engine with Win32 API and OpenGL</li>
+              <li>Improved performance by optimizing matrix transformations</li>
+              <li>Contributed to internal tools with Python scripts for asset import/export</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="resume-section">
+          <h3>🛠 Skills Summary</h3>
+          <ul class="resume-skills">
+            <li>C++, Python, JavaScript, Java</li>
+            <li>OpenGL, React, Spring Boot</li>
+            <li>Git, Linux, Docker, VSCode</li>
+          </ul>
+        </div>
+      </div>
+    </section>    
     <!-- Experience -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <p class="experience-intro">Here’s a look at my past roles and what I worked on:</p>
+    
+        <div class="experience-item">
+          <h3>Software Engineering Intern</h3>
+          <p class="company-time"><strong>XYZ Tech Inc</strong> · Jun 2024 – Aug 2024</p>
+          <ul>
+            <li>Developed a desktop application using C++ and OpenGL for rendering real-time 3D scenes.</li>
+            <li>Used the Win32 API for custom windowing and performance profiling tools.</li>
+            <li>Integrated Python scripts for automating texture and asset conversion.</li>
+          </ul>
+        </div>
+    
+        <div class="experience-item">
+          <h3>Open Source Contributor</h3>
+          <p class="company-time"><strong>OpenGL Learning Toolkit</strong> · Remote · Jan 2024 – Present</p>
+          <ul>
+            <li>Contributed to documentation and code examples for OpenGL tutorials.</li>
+            <li>Fixed shader bugs and improved cross-platform support (Windows/Linux).</li>
+          </ul>
+        </div>
+    
+      </div>
+    </section>    
     <!-- Education -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>Bachelor of Technology in Computer Science</h3>
+          <p class="school">XYZ University · 2021 – 2025</p>
+          <ul>
+            <li>Current GPA: 8.9 / 10</li>
+            <li>Relevant Coursework: Data Structures, Algorithms, Computer Graphics, Operating Systems</li>
+            <li>Capstone Project: “Physics-Driven Game Engine using C++ and OpenGL”</li>
+          </ul>
+        </div>
+    
+        <div class="education-item">
+          <h3>High School (Science Stream)</h3>
+          <p class="school">ABC Senior Secondary School · 2019 – 2021</p>
+          <ul>
+            <li>Scored 94% in final board examination</li>
+            <li>Computer Science + Mathematics major</li>
+          </ul>
+        </div>
+      </div>
+    </section>    
     <!-- Achievements -->
+    
     <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Want to collaborate, have questions, or just say hello? Feel free to reach out!</p>
+        
+        <div class="contact-details">
+          <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          
+          <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank">
+              <img src="icons/github.svg" alt="GitHub">
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">
+              <img src="icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/yourhandle" target="_blank">
+              <img src="icons/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>    
     <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+            <img src="icons/github.svg" alt="GitHub Icon">
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+            <img src="icons/linkedin.svg" alt="LinkedIn Icon">
+          </a>
+          <a href="#top" aria-label="Back to top">
+            <img src="icons/arrow-up.svg" alt="Back to top icon">
+          </a>
+        </div>
+      </div>
+    </footer>    
   </body>
 </html>
